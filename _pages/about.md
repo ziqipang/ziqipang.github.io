@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Ziqi Pang, a researcher on **robotics** and **artificial intelligence**, with abundant experience and interest in **robot perception** (Computer Vision and SLAM). I am **actively seeking to entering a Ph.D. program for 2021 Fall** to further my study. Currently, I have been honored to receive the offer of a prestigious research program [M.S. in Robotics](https://www.ri.cmu.edu/education/academic-programs/master-of-science-robotics/) from the [School of Computer Science, Carnegie Mellon University](https://www.scs.cmu.edu/).
+I am Ziqi Pang, a researcher on **robotics** and **artificial intelligence**, with abundant experience and interest in **robot perception** (Computer Vision and SLAM). I am **actively seeking to enter a Ph.D. program for 2021 Fall**. Currently, I have been honored to receive the offer of a prestigious research program [M.S. in Robotics](https://www.ri.cmu.edu/education/academic-programs/master-of-science-robotics/) from the [School of Computer Science, Carnegie Mellon University](https://www.scs.cmu.edu/).
 
 For the time being, I am working with Dr. [Naiyan Wang](https://winsty.net/) as an algorithm intern on autonomous driving at [TuSimple](https://www.tusimple.com/), a leading player in truck autonomous driving. The delightful research experiences here have eventually determines my passion for robotics and Ph.D. studies. Prior to this, I received a B.S. in Computer Science with honor from [Peking University](http://english.pku.edu.cn/). During my undergraduate years, I was fortunate to collaborate with many great teachers: Prof. [Martial Hebert](https://www.ri.cmu.edu/ri-faculty/martial-hebert/) at CMU, Prof. [Shiliang Zhang](https://www.pkuvmc.com/), and Prof. [Yuxiong Wang](https://yxw.web.illinois.edu/) at UIUC.
 
@@ -28,9 +28,9 @@ My motto research: **<i> Finding challenges in practical applications, Implement
 
 * We develop a 3D Single-Object Tracking (SOT) benchmark and system from Waymo-Open-Dataset targetting on the setbacks of popular Multi-Object Tracking (MOT) paradigms. 
 
-* Our system adopts the structure of classical SLAM systems, (1) the front-end registers newest LiDAR scans, (2) the back-end optimizes a "map" of object shapes.
+* Our system adopts the structure of classical SLAM systems, (1) the front-end registers latest LiDAR scans, (2) the back-end optimizes a "map" of object shapes.
 
-* Our system effectuates other features like unsupervised shape reconstruction, and empowers other appilications in the company, such as LiDAR simulation. 
+* Our system effectuates the additional features like unsupervised shape reconstruction, and empowers other appilications in the company, such as LiDAR simulation. 
 
 2. [Learning Generalizable Representations via Diverse Supervision](https://arxiv.org/abs/1911.12911), <b> Ziqi Pang\*</b>, Zhiyuan Hu\*, Pavel Tokmakov, Yuxiong Wang, Martial Hebert (\* indicates equal contribution) 
 
