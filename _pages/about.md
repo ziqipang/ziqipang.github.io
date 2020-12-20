@@ -8,30 +8,32 @@ redirect_from:
   - /about.html
 ---
 
-I am Ziqi Pang, a senior year undergraduate student majoring in computer science in Peking University. My research interest lies widely in the scope of computer vision and machine learning and I hope to prolong my career in the same field. I am thankful for all the people that have helped me, especially my parents and my dear mentors Prof. [Shiliang Zhang](https://www.pkuvmc.com/) and Prof. [Martial Hebert](https://www.ri.cmu.edu/ri-faculty/martial-hebert/).
+I am Ziqi Pang, a researcher on **robotics** and **artificial intelligence**, with abundant experience and interest in **robot perception** (Computer Vision and SLAM). I am **actively seeking to entering a Ph.D. program for 2021 Fall** to further my study. Currently, I have been honored to receive the offer of a prestigious research program [M.S. in Robotics](https://www.ri.cmu.edu/education/academic-programs/master-of-science-robotics/) from the [School of Computer Science, Carnegie Mellon University](https://www.scs.cmu.edu/).
 
-For the time being, I am applying for graduate school (Master Degree) in computer science. Simultaneously, I am enthusiastic in exploring and expanding my career for the next half year. Please contact me if you are interested.
+For the time being, I am working with Dr. [Naiyan Wang](https://winsty.net/) as an algorithm intern on autonomous driving at [TuSimple](https://www.tusimple.com/), a leading player in truck autonomous driving. The delightful research experiences here have eventually determines my passion for robotics and Ph.D. studies. Prior to this, I received a B.S. in Computer Science with honor from [Peking University](http://english.pku.edu.cn/). During my undergraduate years, I was fortunate to collaborate with many great teachers: Prof. [Martial Hebert](https://www.ri.cmu.edu/ri-faculty/martial-hebert/) at CMU, Prof. [Shiliang Zhang](https://www.pkuvmc.com/), and Prof. [Yuxiong Wang](https://yxw.web.illinois.edu/) at UIUC.
 
 # Research Interest
-Because of the diversity of my past projects, I bear wide interest in various topics. I have strong motivation in enabling computer vision systems to <b>Understand Vision from Shape and Semantic Information</b>, which is critical to expanding the effectiveness of computer vision methods. 
 
-Specifically, I have strong interest in three tasks:
-* <b>Few-Shot Learning</b>: how to transfer to new domains with few examples?
-* <b>Multi-Task Learning</b>: why seemingly related tasks hardly benefit each other?
-* <b>Image Synthesis</b>: how to synthesize outputs retaining the details and structure from source images?
+My motto research: **<i> Finding challenges in practical applications, Implementing systems functional indeed </i>** makes me generally interested in all the related topics in robotics. But some topics attract me most:
 
-# Publication
-[Learning Generalizable Representations via Diverse Supervision](https://arxiv.org/abs/1911.12911), <b> Ziqi Pang\*</b>, Zhiyuan Hu\*, Pavel Tokmakov, Yuxiong Wang, Martial Hebert (\* indicates equal contribution) 
+* **3D Robot Perception**: Perception is the first modules for most robot applications. I aims to build perception modules with **strong 3D awareness** by learning to combine multiple sensors.
 
-# Seminar
-[Weekly Seminar on Deep Learning](http://tianyuanzhang.com/teaching/2019-fall-dl-pku)
+* **End-to-end (Perception, Planning, Control) Learning**: Jointly learning perception, planning, and control may lead to better performance and easier training; thus, it is a hot topic in academics. However, industry prefers solving the three modules independently, as the debugging and adaptation is easier. Therefore, I care about **learning representation for robot tasks end-to-end** while **keeping the simplicity of debugging and interepretation**.
+
+* **Learning from Human Experiences**: Transferring the knowledge of human from videos or demonstration are critical for complex robot tasks. Therefore, I seek to **find proper interfaces and transformations between human demonstrations and robot policies**. 
+
+# Publication and Research Highlights
+
+1. [Model-free Vehicle Tracking and State Estimation in Point Cloud Sequences] <b> Ziqi Pang <b>, Zhichao Li, Naiyan Wang. (Currently under the patent application in the company, soon appear on arxiv.) 
+* We develop a 3D Single-Object Tracking (SOT) benchmark and system from Waymo-Open-Dataset targetting on the setbacks of popular Multi-Object Tracking (MOT) paradigms. 
+* Our system adopts the structure of classical SLAM systems, (1) the front-end registers newest LiDAR scans, (2) the back-end optimizes a "map" of object shapes.
+* Our system effectuates other features like unsupervised shape reconstruction, and empowers other appilications in the company, such as LiDAR simulation. 
+
+2. [Learning Generalizable Representations via Diverse Supervision](https://arxiv.org/abs/1911.12911), <b> Ziqi Pang\*</b>, Zhiyuan Hu\*, Pavel Tokmakov, Yuxiong Wang, Martial Hebert (\* indicates equal contribution) 
+
+* We explore how incorporating richer annotations and supervision assist the generalization of neural networks.
+* We built a benchmark from ADE20K to mimick the realistic scenarios.
 
 # Resume
-[Ziqi Pang Resume](https://github.com/ziqipang/ziqipang.github.io/blob/master/files/ZiqiPang_Resume.pdf)
 
-# Brief Experience 
-During the summer of 2019, I experienced a wonderful period of time at Carnegie Mellon University during my summer research intern for Prof. [Martial Hebert](https://www.ri.cmu.edu/ri-faculty/martial-hebert/). We worked on exploring learning better feature representation for few-shot learning. Throughout the process, [Zhiyuan Hu](https://github.com/BinahHu) from Tsinghua University collaborated closely with me, [Yuxiong Wang](https://www.ri.cmu.edu/ri-people/yuxiong-wang/) and [Pavel Tokmakov](https://pvtokmakov.github.io/home/) offered their valuable guidance on research. The paper is currently on [Learning Generalizable Representations via Diverse Supervision](https://arxiv.org/abs/1911.12911).
-
-Since June 2018, I have worked in Prof. [Shiliang Zhang](https://www.pkuvmc.com/)'s laborotary on computer vision, including a project on unsupervised feature learning and another on image synthesis. The second project is still on-going for refinement and future conference submission (ECCV2020 perhaps).
-
-From November 2018, I have participated in a discussion group on Computer Vision and Machine Learning [Seminar Syllabus](http://tianyuanzhang.com/teaching/2019-fall-dl-pku) initiated along with my fellow peers [Tianyuan Zhang](http://tianyuanzhang.com/) and [Yilun Xu](https://www.yilunxu.com/). This seminar generally requires strong motivation of research in the field of deep learning and contribution in the form of lectures from every participants. So if you are at Peking University right now and already have basic understanding in the very field, do not hesistate to contact us and become a member.
+Please refer to my [ALWAYS-UP-TO-DATE Resume](https://docs.google.com/document/d/12jJQNPKDP1k9pxr2zdF_oZVBSA9bsbDVuyywk4_BSzE/edit?usp=sharing&usp=embed_facebook) or [LinkedIn Page](https://www.linkedin.com/in/ziqi-pang-8b5992158/).
