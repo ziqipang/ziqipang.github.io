@@ -25,13 +25,17 @@ My motto research: **<i> Finding challenges in practical applications, Implement
 # Publication and Research Highlights
 
 1. [Model-free Vehicle Tracking and State Estimation in Point Cloud Sequences] <b> Ziqi Pang <b>, Zhichao Li, Naiyan Wang. (Currently under the patent application in the company, soon appear on arxiv.) 
+
 * We develop a 3D Single-Object Tracking (SOT) benchmark and system from Waymo-Open-Dataset targetting on the setbacks of popular Multi-Object Tracking (MOT) paradigms. 
+
 * Our system adopts the structure of classical SLAM systems, (1) the front-end registers newest LiDAR scans, (2) the back-end optimizes a "map" of object shapes.
+
 * Our system effectuates other features like unsupervised shape reconstruction, and empowers other appilications in the company, such as LiDAR simulation. 
 
 2. [Learning Generalizable Representations via Diverse Supervision](https://arxiv.org/abs/1911.12911), <b> Ziqi Pang\*</b>, Zhiyuan Hu\*, Pavel Tokmakov, Yuxiong Wang, Martial Hebert (\* indicates equal contribution) 
 
 * We explore how incorporating richer annotations and supervision assist the generalization of neural networks.
+
 * We built a benchmark from ADE20K to mimick the realistic scenarios.
 
 # Resume
