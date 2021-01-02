@@ -24,7 +24,7 @@ I am generally interested in all aspects related to building up functional robot
 
 # Publication and Research Highlights
 
-For details of each project, please refer to.
+For details of each project, please refer to the <i>Publication</i> page.
 
 1. Model-free Vehicle Tracking and State Estimation in Point Cloud Sequences, <i><b>Ziqi Pang</b>, Zhichao Li, Naiyan Wang.</i> (Currently under the patent application in the company, soon appear on arxiv.) 
 
