@@ -28,17 +28,7 @@ For details of each project, please refer to the <i>Publication</i> page.
 
 1. Model-free Vehicle Tracking and State Estimation in Point Cloud Sequences, <i><b>Ziqi Pang</b>, Zhichao Li, Naiyan Wang.</i> (Currently under the patent application in the company, soon appear on arxiv.) 
 
-<!-- * We develop a 3D Single-Object Tracking (SOT) benchmark and system from Waymo-Open-Dataset targetting on the setbacks of popular Multi-Object Tracking (MOT) paradigms. 
-
-* Our system adopts the structure of classical SLAM systems, (1) the front-end registers latest LiDAR scans, (2) the back-end optimizes a "map" of object shapes.
-
-* Our system effectuates the additional features like unsupervised shape reconstruction, and empowers other appilications in the company, such as LiDAR simulation.  -->
-
 2. [Unlocking the Full Potential of Small Data with Diverse Supervision](https://arxiv.org/abs/1911.12911), <i><b> Ziqi Pang\*</b>, Zhiyuan Hu\*, Pavel Tokmakov, Yuxiong Wang, Martial Hebert</i> (\* indicates equal contribution, currently under review) 
-
-<!-- * We explore how incorporating richer annotations and supervision assist the generalization of neural networks.
-
-* We built a benchmark from ADE20K to mimick the realistic scenarios. -->
 
 # Resume
 
