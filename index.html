@@ -63,7 +63,35 @@
           </tr>
         </tbody></table>
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-				
+
+<tr onmouseout="streaming_forecasting_stop()" onmouseover="streaming_forecasting()">
+  <td style="padding:20px;width:25%;vertical-align:top">
+      <div class="two" id='streaming_forecasting_image'><video  width=120% height=120% muted autoplay loop>
+      <source src="images/streaming_forecasting.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video></div>
+  </td>
+  <td style="padding:30px;width:75%;vertical-align:middle">
+    <papertitle>Streaming Motion Forecasting for Autonomous Driving</papertitle>
+    <br>
+    <strong>Ziqi Pang</strong>,
+    <a href="https://www.cs.cmu.edu/~deva/">Deva Ramanan</a>,
+    <a href="https://mtli.github.io/">Mengtian Li</a>,
+    <a href="https://yxw.web.illinois.edu/">Yu-Xiong Wang</a>
+    <br>
+    <em>IROS</em>, 2023 &nbsp
+    <br>
+    <a href="https://github.com/ziqipang/StreamingForecasting">Code</a>
+    /
+    arXiv
+    /
+    Demo
+    <p></p>
+    <p>
+    "Streaming forecasting" mitigates the gap between "snapshot-based" conventional motion forecasting and the streaming real-world traffic. 
+    </p>
+  </td>
+</tr>
 
 <tr onmouseout="mvmap_stop()" onmouseover="mvmap_start()">
   <td style="padding:20px;width:25%;vertical-align:top">
@@ -75,8 +103,8 @@
   <td style="padding:30px;width:75%;vertical-align:middle">
     <papertitle>MV-Map: Offboard HD-Map Generation with Multi-view Consistency (Alias: MV-Map)</papertitle>
     <br>
-    <a href="https://ziyangxie.site/">Ziyang Xie</a>
-    <strong>Ziqi Pang</strong>,
+    <a href="https://ziyangxie.site/">Ziyang Xie</a>*,
+    <strong>Ziqi Pang</strong>*,
     <a href="https://yxw.web.illinois.edu/">Yu-Xiong Wang</a>
     <br>
     <em>Arxiv (In-sumission)</em>, 2023 &nbsp
@@ -88,7 +116,7 @@
     <a href="https://www.youtube.com/watch?v=SN14oTyMFrk">Demo</a>
     <p></p>
     <p>
-    We propose the first offboard auto-labeling pipeline for HD-Maps, whose crust is to fuse BEV perception results guided by geometric cues from NeRFs. 
+    MV-Map is the first offboard auto-labeling pipeline for HD-Maps, whose crust is to fuse BEV perception results guided by geometric cues from NeRFs. 
     </p>
   </td>
 </tr>
@@ -119,7 +147,7 @@
     <a href="https://youtu.be/eJghONb2AGg">Demo</a>
     <p></p>
     <p>
-    We propose an vision-centric 3D MOT framework that dramatically decreases ID-Switches with an end-to-end framework for autonomous driving. 
+    PF-Track is an vision-centric 3D MOT framework that dramatically decreases ID-Switches with an end-to-end framework for autonomous driving. 
     </p>
   </td>
 </tr>
@@ -133,7 +161,7 @@
   <td style="padding:20px;width:75%;vertical-align:middle">
     <papertitle>Embracing Single Stride 3D Object Detector with Sparse Transformer (Alias: SST)</papertitle>
     <br>
-    <a href="https://lue.fan/">Lue Fan</a>
+    <a href="https://lue.fan/">Lue Fan</a>,
     <strong>Ziqi Pang</strong>,
     <a href="https://tianyuanzhang.com/">Tianyuan Zhang</a>,
     <a href="https://yxw.web.illinois.edu/">Yu-Xiong Wang</a>,
@@ -149,7 +177,7 @@
     <a href="https://arxiv.org/abs/2112.06375">arXiv</a>
     <p></p>
     <p>
-      We emphasize the <em>small object sizes</em> and <em>sparsity</em> of point clouds. Our single-stride sparse transformer enlight new backbones for outdoor LiDAR-based detection. 
+      SST emphasize the <em>small object sizes</em> and <em>sparsity</em> of point clouds. Its sparse transformers enlight new backbones for outdoor LiDAR-based detection. 
     </p>
   </td>
 </tr>
@@ -175,7 +203,7 @@
     <a href="https://patents.google.com/patent/US20230030496A1/en">Patent</a>
     <p></p>
     <p>
-      We develop a simple-yet-effective 3D MOT system. Our SimpleTrack has received more than 200 stars on GitHub. 
+      SimpleTrack is simple-yet-effective 3D MOT system with more than 200 stars on GitHub. 
     </p>
   </td>
 </tr>
@@ -201,7 +229,7 @@
     <a href="https://www.youtube.com/watch?v=BpHixKs91i8">Demo</a>
     <p></p>
     <p>
-    We construct a LiDAR-based state estimation algorithm for both the onboard usage of redundancy system and offboard usage of auto-labeling.
+    LiDAR-SOT is a LiDAR-based state estimation algorithm for both the onboard usage of redundancy system and offboard usage of auto-labeling.
     </p>
   </td>
 </tr>
