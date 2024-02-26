@@ -20,7 +20,7 @@
               <p style="text-align:center">
                 <name>Ziqi Pang (庞子奇)</name>
               </p>
-              <p> I am a second-year CS Ph.D. student focusing on computer vision and machine learning at <a href="https://cs.illinois.edu/">University of Illinois Urabana-Champaign</a> (UIUC),
+              <p> I am a thrid-year CS Ph.D. student focusing on computer vision and machine learning at <a href="https://cs.illinois.edu/">University of Illinois Urabana-Champaign</a> (UIUC),
                   where my advisor is Prof. <a href="https://yxw.web.illinois.edu/">Yu-Xiong Wang</a>. 
                   Before that, I graduated from <a href="https://english.pku.edu.cn/">Peking University</a> (PKU) with a Bachelor degree in Computer Science. 
               </p>
@@ -50,19 +50,40 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                My research concentrates on <strong>3D perception</strong> and <strong>prediction</strong> in computer vision. <strong>Autonomous driving</strong> is my major handle because of its multi-facet challenges and huge impacts to the real-world. For instance, my expertise covers:
+                My research concentrates on <strong>perception in 3D and contexts</strong>, which is the cornerstone for embodied agents.
+
+                The core of my research principle is understanding the <strong>the flow of information across datasets, models, and inference-time contexts</strong>.
+                Therefore, I mostly adopt the approach of Paul Erdos by investigating a broad range of tasks, topics, models, and techniques:
                 <ul>
-                  <li>Diverse components (detection, tracking, and prediction)</li>
-                  <li>Multiple sensors (cameras and LiDAR)</li>
-                  <li>Single/multi-frame reasoning (detection and tracking)</li>
-                  <li>Onboard/offboard applications (BEV perception and auto-labeling)</li>
+                  <li>Representation learning driven by foundation models (e.g. LLM) </li>
+                  <li>Propogation of temporal information in 3D tracking of autonomous driving.</li>
+                  <li>Selection and fusion of long-context in AR/VR oriented video understanding and autonomous driving.</li>
+                  <li>Sparsifying and condensing the representation for 3D perception.</li>
                 </ul>
-                Meanwhile, I am also exploring these techniques for other applicational scenarios and real-world products. Please emails me if you wish to collaborate for research, start-up, consulting, etc. 
               </p>
             </td>
           </tr>
         </tbody></table>
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  
+  <tr onmouseout="rmem_stop()" onmouseover="rmem_start()">
+    <td style="padding:20px;width:25%;vertical-align:top">
+      <div class="two" id='rmem_image'><img src="images/rmem.png" style="width:100%;height:auto"></div>
+    </td>
+    <td style="padding:30px;width:75%;vertical-align:middle">
+      <papertitle>Restricted Memory Banks Improve Video Object Segmentation: A Revisit (Alias: RMem)</papertitle>
+      <br>
+      <a href="https://scholar.google.com/citations?user=FxvLU4sAAAAJ&hl=en">Junbao Zhou</a>*,
+      <strong>Ziqi Pang</strong>*,
+      <a href="https://yxw.web.illinois.edu/">Yu-Xiong Wang</a>
+      <br>
+      <em> CVPR </em>, 2024
+      <br>
+      <p>
+      Simply bounding the size of memory banks improves VOS on challenging state-changes and long videos, indicating the importance of selecting relevant information from long contexts.
+      </p>
+    </td>
+  </tr>
 
   <tr onmouseout="lm4vis_stop()" onmouseover="lm4vis_start()">
     <td style="padding:20px;width:25%;vertical-align:top">
